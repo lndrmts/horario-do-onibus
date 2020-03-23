@@ -1,0 +1,82 @@
+{
+  "jardimCacula": [
+    {
+      "id": "09 /16",
+      "name": "Jardim Caçula",
+      "slug": "jardim-cacula",
+      "price": "4,40",
+      "info": "",
+      "type": "municipal",
+      "itinerary": [
+        {
+          "direction": "ida",
+          "streets": ["Rua 01", "Rua 02", "Rua 03"]
+        },
+        {
+          "direction": "ida",
+          "streets": ["Rua 01", "Rua 02", "Rua 03"]
+        }
+      ],
+      "mondayToSaturday": [
+        {
+          "place": "Jardim Caçula",
+          "hours": ["3:55", "4:15"]
+        },
+        {
+          "place": "Rodoviária",
+          "hours": ["3:55", "4:15"]
+        }
+      ],
+      "SundaysAndHolidays": [
+        {
+          "place": "Jardim Caçula",
+          "hours": ["3:55", "4:15"]
+        },
+        {
+          "place": "Rodoviária",
+          "hours": ["3:55", "4:15"]
+        }
+      ]
+    }
+  ],
+  "vilaBonita": [
+    {
+      "id": "08",
+      "name": "Vila Bonita",
+      "slug": "vila-bonita",
+      "price": "4,40",
+      "info": "",
+      "type": "municipal",
+      "itinerary": [
+        {
+          "direction": "ida",
+          "streets": ["Rua 01", "Rua 02", "Rua 03"]
+        },
+        {
+          "direction": "ida",
+          "streets": ["Rua 01", "Rua 02", "Rua 03"]
+        }
+      ],
+      "mondayToSaturday": [
+        {
+          "place": "Jardim Caçula",
+          "hours": ["3:55", "4:15"]
+        },
+        {
+          "place": "Rodoviária",
+          "hours": ["3:55", "4:15"]
+        }
+      ],
+      "SundaysAndHolidays": [
+        {
+          "place": "Jardim Caçula",
+          "hours": ["3:55", "4:15"]
+        },
+        {
+          "place": "Rodoviária",
+          "hours": ["3:55", "4:15"]
+        }
+      ]
+    }
+  ]
+}
