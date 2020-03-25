@@ -8,6 +8,8 @@ import { createMuiTheme } from "@material-ui/core/styles";
 import GlobalStyle from "./styles/Global";
 import { ThemeProvider } from "@material-ui/styles";
 
+import Error404 from "./components/error404";
+
 const theme = createMuiTheme({
   palette: {
     primary: {
@@ -29,6 +31,10 @@ const routes = [
   {
     path: "/vila-bonita",
     render: () => <Neighborhood name="vilaBonita" />
+  },
+  {
+    path: "/santa-luzia",
+    render: () => <Neighborhood name="santaLuzia" />
   }
 ];
 
@@ -50,7 +56,7 @@ function App() {
             />
           ))}
           <Route path="*">
-            <Main />
+            <Error404 />
           </Route>
         </Switch>
       </ThemeProvider>

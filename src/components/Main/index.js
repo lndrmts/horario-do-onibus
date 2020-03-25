@@ -204,7 +204,7 @@ function Main() {
               >
                 {Links.map(link => (
                   <ListItem
-                    key={link.id}
+                    key={`${link.id}-${link.path}`}
                     button
                     component={Link}
                     to={link.path}
